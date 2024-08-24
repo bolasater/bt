@@ -1,0 +1,67 @@
+{
+    "mob_types":{
+        "heavy_fighter":{
+            "dmg_health_split": 0.3,
+            "mvt": 1.1,
+            "atk_stats_dict": {   
+                "thrust": {
+                    "atk_type":"melee",
+                    "dmg_fraction":1,
+                    "rng":1.2,
+                    "atks_sec":1,
+                    "cool_down":0.2,
+                    "launch_ratio":0.5
+                }
+            }
+        },
+        "fighter":{
+            "dmg_health_split": 0.5,
+            "mvt": 1.6,
+            "atk_stats_dict": {   
+                "slash": {
+                    "atk_type":"melee",
+                    "dmg_fraction":1,
+                    "rng":1.2,
+                    "atks_sec":0.8,
+                    "cool_down":0.2,
+                    "launch_ratio":0.5
+                }
+            }
+        },
+        "archer":{
+            "dmg_health_split": 0.6,
+            "mvt": 1.1,
+            "atk_stats_dict": {   
+                "shoot": {
+                    "atk_type":"missile",
+                    "dmg_fraction":0.7,
+                    "rng":8,
+                    "atks_sec":0.75,
+                    "cool_down":0.2,
+                    "launch_ratio":0.3,
+                    "addl_stats":{
+                        "missile_speed":4
+                    }
+                }
+            }
+        },
+        "caster":{
+            "dmg_health_split": 0.7,
+            "mvt": 0.7,
+            "atk_stats_dict": {   
+                "spellcast": {
+                    "atk_type":"aoe",
+                    "dmg_fraction":0.4, 
+                    "rng":7,
+                    "atks_sec":0.75,
+                    "cool_down":1.5,
+                    "launch_ratio":0.4,
+                    "addl_stats":{
+                        "geom":"hex",
+                        "radius":6
+                    }
+                }
+            }
+        }
+    }
+}

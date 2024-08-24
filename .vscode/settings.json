@@ -1,0 +1,10 @@
+{
+    "python.defaultInterpreterPath": "~/anaconda3/envs/lc2/bin/python3.11",
+    "launch": {
+
+        "configurations": [],
+        "compounds": []
+    },
+    "python.condaPath": "~/anaconda3/envs"
+
+}
