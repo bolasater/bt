@@ -1,0 +1,33 @@
+creat_id = {}
+type_creat = {}
+flavor_creat = {}
+type_flavor = {}
+ability_flavor = {}
+type_ability = {}
+
+types_full = []
+flavors_full = []
+abilities_full = []
+
+qb = {} #quest book for useful quest data
+qb['ids'] = [] #'srcs','story_levels','obj_npcs','locns','items'
+qb['srcs'] = []
+qb['reqs'] = {}
+qb['story_keys'] = {}
+qb['story_keys']['no_key'] = 0 #sometimes stories aren't dicts
+qb['req_keys'] = {}
+qb['story_levels'] = []
+qb['common_keys'] = {}
+qb['obj_keys'] = {}
+qb['obj_type_keys'] = {}
+qb['story_levels'] = []
+qb['obj_npcs'] = []
+qb['locns'] = []
+qb['items'] = []
+qb['creatures']=[]
+q_list = []
+q_dict_id = {} # ids are keys
+q_dict_src = {} # srcs are keys. can be one to many
+q_dict_locn = {} #quests by locn
+locn_creat = {}
+https://docs.python.org/3/library/pathlib.html#operators
